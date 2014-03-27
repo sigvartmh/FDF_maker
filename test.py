@@ -43,6 +43,7 @@ def fdf_make(filename, fdf_list,lonns_trinn):
 			sum = sum + value
 			fdf.append(fdf_txt_object(name,value))
 			j=j+1
+	
 	fdf.append(fdf_txt_object("Sum",sum))
 	fdf.append(fdf_txt_object("Antall timer",sum))
 	fdf.append(fdf_txt_object("Sats",lonns_trinn[1]))
